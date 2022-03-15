@@ -61,6 +61,4 @@ function salvarTarefas() {
     tarefaTexto = tarefaTexto.replace("Apagar", "").trim();
     listaDeTarefas.push(tarefaTexto);
   }
-  const tarefasJSON = JSON.stringify(listaDeTarefas);
-  console.log(listaDeTarefas);
 }
