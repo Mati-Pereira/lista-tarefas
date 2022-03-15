@@ -29,9 +29,14 @@ body {
 
 li {
   margin: 30px auto;
+  list-style-type: none;
 }
 
 h1 {
   margin-bottom: 30px;
   font-weight: bold;
+}
+
+.apagar{
+  margin-left: 15px;
 }
